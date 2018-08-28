@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        // base
+        "rootDir": "./src",
+        "outDir": "./dist/src",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "src/*": ["./src/*"],
+        },
+        // feature
+        "jsx": "preserve",
+        "experimentalDecorators": true,
+        // type check
+        "strict": true,
+        "types": [],
+    },
+    "include": [
+        "./src/**/*",
+    ],
+}
