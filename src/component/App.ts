@@ -1,6 +1,5 @@
 import { Vue, Component } from 'vue-property-decorator';
 import Hello from './Hello.vue';
-// import Hello from './Hello'; // Cannot find module
 import World from './World.vue';
 
 @Component<App>({
@@ -10,7 +9,7 @@ import World from './World.vue';
         World,
     },
     mounted() {
-        // this.$refs.c1.hello(); // use './Hello.vue', IntelliSense failure
+        this.$refs.c1.hello(); // use './Hello.vue', IntelliSense failure
 
         // this.$refs.c2.world(); // d.ts invalid
     },

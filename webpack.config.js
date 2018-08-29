@@ -12,7 +12,7 @@ module.exports = {
         publicPath: '/',
     },
     resolve: {
-        extensions: ['.vue', '.js', '.jsx', '.mjs', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx'],
         alias: {
             src: path.resolve('./src'),
         },
